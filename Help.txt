@@ -1,0 +1,19 @@
+1. Training.ipynb file contain the training code which i used to train the model first. I used sequential model to train our model using new Plant leaves disease dataset.
+2. After training of our model is done I used that trained file in my GUI.
+3. Then I used keras model to Predict the results according to our trained model.
+4. The trained system can only pridict the diseases of the plant on which it is trained on.
+
+
+**************************
+
+
+1. I have an image processing model which detect dieseased plants according to the leaf.
+     Trained over many data ( 1gb ), i will provide you the model and the enviorment files.
+    The model should be added to my flask back end application as a function.
+
+2. The flask backend application code will also be given to you, the database which is used is mongoDB.
+
+3. Host the flask application on heroku.( or locally ).
+
+4. From mongoDB take images and process through the python image processing model( now in flask app), 
+    and give the result in the backend as diseased or not
